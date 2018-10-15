@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>폼예제</title>
+</head>
+<body>
+
+<form method='get' action='/web/b.jsp'>
+	<fieldset>
+		<legend>로그인정보</legend>
+		<ol>
+			<li>
+				<label for='idel'>*이름</label>
+				<input type='text' name='id' id='idel' placeholder='영문자와 숫자 8개 이상입니다' required pattern='[가-힣]+'><br></li>
+			<li>
+				<label for='pwck'>비밀번호</label>
+				<input type='password' name='pw' id='pwck'></li>
+			<li>
+				<label for='pw'>비밀번호 확인</label>
+				<input type='password' name='pw' id='pw'><br></li>
+			<li>
+				<label for='level'>회원 등급</label>
+				<input type='text' name='grade' id='grade' value='준회원' readonly='readonly'><br></li>
+		</ol>
+	</fieldset>
+	
+	<br>
+	<input type='submit' value='전송'>
+	
+	
+</form>
+
+
+</body>
+</html>

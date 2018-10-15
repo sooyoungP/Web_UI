@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form method='get'>
+		<fieldset>
+			<legend>회원가입</legend>
+			<ol>
+				<li>
+					<label name='name'>이름</label>
+					<input type='text' name='name' id='name'></li>
+				<li>
+					<label name='gender'>성별</label>
+					<input type='radio' name='gender' id= 'man'>남자
+					<input type='radio' name='gender' id= 'women'>여자</li>
+				<li>
+					<label name='job'>직업</label>
+						<select>
+							<option value='프로그래머' name='job' id= 'job'>프로그래머</option>
+						</select>
+				<li>
+					<label name='hobby'>취미</label>
+					<input type='checkbox' name='hobby' id= 'sleep'>잠자기
+					<input type='checkbox' name='hobby' id= 'eat'>먹기
+					<input type='checkbox' name='hobby' id= 'breath'>숨쉬기
+					<input type='checkbox' name='hobby' id= 'looking'>멍때리기</li>
+				<li>
+					<label name='gender'>성별</label>
+					<input type='radio' name='gender' id= 'man1'>남자
+					<input type='radio' name='gender' id= 'woman1'>여자</li>
+				<li>	
+					<label name='trip'>가장 여행하고 픈 나라 :</label>
+						<input list='trip'>
+							<datalist id='trip'>
+								<option value='스위스'>
+								<option value='노르웨이'>
+								<option value='스페인'>
+								<option value='영국'>
+							</datalist></li>
+				<li>
+					<input type='submit' value='확인'>
+					<input type='reset' value='취소'></li>
+			</ol>
+		</fieldset>
+		
+	</form>
+	
+</body>
+</html>
